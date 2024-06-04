@@ -1,0 +1,10 @@
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\bin\Debug\Main.exe.config
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\bin\Debug\Main.exe
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\bin\Debug\Main.pdb
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\bin\Debug\La veterinaria.dll
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\bin\Debug\La veterinaria.pdb
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\obj\Debug\Main.csproj.Up2Date
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\obj\Debug\Main.exe
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\Main\obj\Debug\Main.pdb

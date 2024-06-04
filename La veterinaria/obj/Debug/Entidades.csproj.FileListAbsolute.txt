@@ -1,0 +1,6 @@
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\La veterinaria\bin\Debug\La veterinaria.dll
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\La veterinaria\bin\Debug\La veterinaria.pdb
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\La veterinaria\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\La veterinaria\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\La veterinaria\obj\Debug\La veterinaria.dll
+D:\UTN-PROGRAM_II\ParcialesModelos\La veterinaria\La veterinaria\obj\Debug\La veterinaria.pdb
