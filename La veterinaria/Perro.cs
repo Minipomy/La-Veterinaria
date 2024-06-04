@@ -29,25 +29,22 @@ namespace La_veterinaria
                 string esAlfa = _esAlfa ? "SI" : "NO";
                 StringBuilder sb = new StringBuilder();
                 sb.Append(base.DatosCompletos());
-                sb.AppendLine(esAlfa);
-                sb.AppendLine(_edad.ToString());
+                sb.AppendLine($"Alfa de la manada: {esAlfa}");
+                sb.AppendLine($"Edad: {_edad}");
                 return sb.ToString();
             }
         }
 
-
-        public Perro(string nombre, string raza) 
-            : base(nombre, raza)
-        {
-            _esAlfa = false;
-            _edad = 0;
-        } 
-
-        public Perro(string nombre, string raza, bool alfa, int edad) : this(nombre, raza)
+        public Perro(string nombre, string raza, bool alfa, int edad) : base(nombre, raza)
         {
             _edad = edad;
             _esAlfa = alfa;
         }
 
+        public Perro(string nombre, string raza): base(nombre, raza)
+        {
+            _esAlfa = false;
+            _edad = 0;
+        }
     }
 }

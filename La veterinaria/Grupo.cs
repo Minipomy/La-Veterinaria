@@ -14,7 +14,7 @@ namespace La_veterinaria
         private static ETipoManada _tipo;
         static Grupo() => _tipo = ETipoManada.Unica;
         private Grupo() => _manada = new List<Mascota>();
-        public Grupo(string nombre) => _nombre = nombre;
+        public Grupo(string nombre) : this() => _nombre = nombre;
         public Grupo(string nombre, ETipoManada tipo) : this(nombre) => _tipo = tipo;
         public static bool operator ==(Grupo grupo, Mascota mascota)
         {
@@ -70,13 +70,13 @@ namespace La_veterinaria
         public static implicit operator string(Grupo grupo)
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append($"*** MANADA: {grupo._nombre} - ");
-            sb.Append($"*** TIPO: {grupo.Tipo} - ");
-            sb.Append($"*** INTEGRANTES: {grupo._nombre.Count()} ***");
+            sb.AppendLine($"*** MANADA: {grupo._nombre} - " + 
+                $"*** TIPO: {grupo.Tipo} - " +
+                $"*** INTEGRANTES: {grupo._nombre.Count()} ***");
             foreach (Mascota mascota in grupo._manada)
             {
-                sb.Append($"================={mascota.GetType()}===================");
-                //sb.AppendLine(mascota.ToString());
+                sb.AppendLine($"================={mascota.GetType().Name}===================");
+                sb.Append(mascota.ToString());
             }
             return sb.ToString();
         }
